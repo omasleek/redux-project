@@ -60,5 +60,12 @@ src/
 
 1. **Clone the repo**
    ```bash
-   git clone https://github.com/your-username/todo-redux-tailwind.git
-   cd todo-redux-tailwind
+   git clone https://github.com/omasleek/redux-project.git
+   
+   ## 📸 Screenshots
+
+###  desktop Mode
+![desktop Mode](./src/assets/screenshots/desktop.PNG)
+
+###  Mobile Mode
+![Dark Mode](./src/assets/screenshots/mobile.PNG)
