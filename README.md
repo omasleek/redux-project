@@ -27,41 +27,7 @@ A clean and animated ToDo Application built with **React**, **Redux Toolkit**, *
 
 ---
 
-## 📁 Folder Structure
 
-src/
-├── components/
-│ ├── AddTask.jsx
-│ ├── ListTask.jsx
-│ └── Task.jsx
-├── redux/
-│ ├── store.js
-│ └── taskSlice.js
-├── App.jsx
-├── index.css
-└── main.jsx
-
-src/
-├── components/
-│ ├── AddTask.jsx
-│ ├── ListTask.jsx
-│ └── Task.jsx
-├── redux/
-│ ├── store.js
-│ └── taskSlice.js
-├── App.jsx
-├── index.css
-└── main.jsx
-
-
----
-
-## 🔧 Installation
-
-1. **Clone the repo**
-   ```bash
-   git clone https://github.com/omasleek/redux-project.git
-   
    ## 📸 Screenshots
 
 ###  desktop Mode

@@ -18,7 +18,7 @@ const AddTask = () => {
     <div className="flex items-center gap-2 mb-4">
       <input
         type="text"
-        className="border border-gray-300 rounded px-4 py-2 w-full"
+        className="border border-gray-300 rounded px-4 text-blue-400 py-2 w-full"
         placeholder="Add a new task..."
         value={desc}
         onChange={(e) => setDesc(e.target.value)}

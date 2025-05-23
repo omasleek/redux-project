@@ -2,17 +2,19 @@
 import React, { useState, useEffect } from "react";
 import AddTask from "./components/AddTask";
 import ListTask from "./components/ListTask";
+import { hasWarned } from "framer-motion";
 
 const App = () => {
-  const [dark, setDark] = useState(() => false);
-
-  // Apply dark mode class to HTML tag
-  useEffect(() => {
-    document.documentElement.classList.toggle("dark", dark);
-  }, [dark]);
+  const [dark, setDark] = useState(false);
 
   return (
-    <div className="min-h-screen bg-gray-100 dark:bg-gray-900 transition-colors duration-300 flex justify-center items-start py-10 px-4">
+    <div
+      className={
+        dark
+          ? "min-h-screen bg-gray-700 dark:bg-gray-900 text-neutral-800  transition-colors duration-300 flex justify-center items-start py-10 px-4"
+          : "min-h-screen bg-gray-100 dark:bg-gray-900 transition-colors duration-300 flex justify-center items-start py-10 px-4"
+      }
+    >
       <div className="w-full max-w-xl">
         {/* Title and Mode Switch */}
         <div className="flex justify-between items-center mb-6">
