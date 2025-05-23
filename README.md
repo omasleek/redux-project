@@ -35,3 +35,17 @@ A clean and animated ToDo Application built with **React**, **Redux Toolkit**, *
 
 ###  Mobile Mode
 ![Dark Mode](./src/assets/screenshots/mobile.PNG)
+
+###  Dark Mode
+![Dark Mode](./src/assets/screenshots/Dark%20mode.PNG)
+
+
+###  Light Mode
+![Dark Mode](./src/assets/screenshots/Light%20mode.PNG)
+
+
+###  Task view
+![Dark Mode](./src/assets/screenshots/Tasks.PNG)
+
+###  Task light mode view
+![Dark Mode](./src/assets/screenshots/Tasks2.PNG)
